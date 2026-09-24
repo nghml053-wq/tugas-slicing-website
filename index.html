@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Naghamal Islam — Desainer Web & Kreator UI/UX</title>
+  <meta name="description" content="Portofolio Pribadi M. Naghamal Islam — Desainer Web & Kreator UI/UX berbasis di Jember, Indonesia.">
+  
+  <!-- Google Fonts: Bebas Neue, Plus Jakarta Sans, Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet (Pure CSS) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="site-header" id="top-nav">
+    <div class="container header-inner">
+      <div class="header-left">
+        <a href="#hero" class="brand-text">
+          <span class="role-badge">DESAINER WEB / KREATOR DIGITAL</span>
+        </a>
+      </div>
+
+      <nav class="desktop-nav" aria-label="Navigasi Utama">
+        <ul class="nav-links">
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+          <li><a href="#process" class="nav-link">Proses</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <a href="#contact" class="status-pill">
+          <span>MENERIMA FREELANCE</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka menu navigasi" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-link">Beranda</a></li>
+        <li><a href="#projects" class="mobile-link">Proyek Pilihan</a></li>
+        <li><a href="#experience" class="mobile-link">Keahlian & Pendidikan</a></li>
+        <li><a href="#process" class="mobile-link">Proses Kerja</a></li>
+        <li><a href="#contact" class="mobile-link">Mari Bekerja Sama</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="status-pill full-width">
+          <span>MENERIMA FREELANCE</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <!-- Massive Background Watermark -->
+      <div class="hero-watermark" aria-hidden="true">PORTOFOLIO</div>
+
+      <div class="container hero-container">
+        <!-- Hero Left Column: Intro & Bio -->
+        <div class="hero-col hero-intro reveal-on-scroll">
+          <span class="script-greeting">Halo, Saya</span>
+          <h1 class="hero-name">Naghamal Islam</h1>
+          <h2 class="hero-subtitle">DESAINER WEB & KREATOR UI/UX</h2>
+          <p class="hero-bio">
+            Saya mendesain dan membangun pengalaman web yang elegan, berfokus pada pengguna, menggabungkan kreativitas dengan strategi. Berdedikasi pada desain yang bersih, interaksi yang mulus, dan detail yang membawa perbedaan.
+          </p>
+
+          <div class="hero-meta">
+            <div class="location-badge">
+              <span class="globe-icon" aria-hidden="true">🌐</span>
+              <span>TERSEDIA SECARA GLOBAL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Center: Visual Portrait -->
+        <div class="hero-col hero-visual-wrap reveal-on-scroll">
+          <div class="portrait-card">
+            <!-- Professional Silhouette / High-End Vector Representation -->
+            <div class="portrait-frame has-photo">
+              <div class="portrait-bg-glow"></div>
+              <img src="profile.png" alt="Potret Muhammad Naghamal Islam" class="portrait-photo">
+            </div>
+
+            <!-- Floating Badge Overlay -->
+            <div class="floating-spark-badge">
+              <p class="floating-text">Mengubah ide menjadi pengalaman digital yang berdampak kuat.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Metrics & Stats -->
+        <div class="hero-col hero-stats reveal-on-scroll">
+          <div class="stat-card">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">TAHUN PENGALAMAN</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">40+</span>
+            <span class="stat-label">PROYEK SELESAI</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">KLIEN PUAS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header-row reveal-on-scroll">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">KARYA PORTOFOLIO</span>
+            <h2 class="section-title">PROYEK PILIHAN</h2>
+          </div>
+          <a href="#contact" class="arrow-cta-link">
+            <span>LIHAT SEMUA PROYEK</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01: Veloce Bikes -->
+          <article class="project-card tilt-target reveal-on-scroll" data-project="01">
+            <div class="project-preview-frame">
+              <div class="mockup-screen screen-dark">
+                <div class="mockup-browser-bar">
+                  <div class="mockup-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mockup-address">veloce-bikes.io</div>
+                </div>
+                <div class="mockup-content bike-theme">
+                  <div class="mockup-badge">RILISAN TERBARU</div>
+                  <h3 class="mockup-headline">VELOCE RACING BICYCLE</h3>
+                  <p class="mockup-desc">Rangka karbon aerodinamis yang dirancang untuk kecepatan tinggi dan balap ketahanan.</p>
+                  <div class="mockup-interactive-bar">
+                    <span class="mock-btn-red">JELAJAHI SPESIFIKASI</span>
+                    <span class="mock-price">$3,499</span>
+                  </div>
+                  <div class="mockup-geom-art">
+                    <svg viewBox="0 0 160 80" fill="none" class="mockup-svg-illus">
+                      <circle cx="35" cy="50" r="22" stroke="#C8102E" stroke-width="3"/>
+                      <circle cx="125" cy="50" r="22" stroke="#C8102E" stroke-width="3"/>
+                      <path d="M35 50L75 50L100 20L60 20L35 50Z" stroke="#ffffff" stroke-width="3"/>
+                      <path d="M75 50L95 15L125 50" stroke="#ffffff" stroke-width="3"/>
+                      <path d="M90 15H105" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer-meta">
+              <div class="project-number-box">01</div>
+              <div class="project-info">
+                <h3 class="project-name">VELOCE BIKES</h3>
+                <span class="project-category">SITUS E-COMMERCE</span>
+              </div>
+              <a href="#contact" class="project-arrow-btn" aria-label="Lihat detail Veloce Bikes">
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 02: Woodcraft -->
+          <article class="project-card tilt-target reveal-on-scroll" data-project="02">
+            <div class="project-preview-frame">
+              <div class="mockup-screen screen-light">
+                <div class="mockup-browser-bar light-bar">
+                  <div class="mockup-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mockup-address light-addr">woodcraft-furniture.co</div>
+                </div>
+                <div class="mockup-content furniture-theme">
+                  <div class="mockup-badge light-badge">KERAJINAN 2024</div>
+                  <h3 class="mockup-headline light-head">FURNITUR KERAJINAN ABADI</h3>
+                  <p class="mockup-desc light-desc">Furnitur arsitektural kayu oak &amp; kenari solid yang berkelanjutan untuk interior modern.</p>
+                  <div class="mockup-interactive-bar">
+                    <span class="mock-btn-dark">LIHAT KOLEKSI</span>
+                    <span class="mock-tag">EST. 1988</span>
+                  </div>
+                  <div class="mockup-geom-art">
+                    <svg viewBox="0 0 160 80" fill="none" class="mockup-svg-illus">
+                      <rect x="40" y="30" width="80" height="10" rx="2" fill="#27272a"/>
+                      <rect x="50" y="40" width="8" height="30" fill="#52525b"/>
+                      <rect x="102" y="40" width="8" height="30" fill="#52525b"/>
+                      <path d="M30 45H130" stroke="#C8102E" stroke-width="2" stroke-dasharray="3 3"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer-meta">
+              <div class="project-number-box">02</div>
+              <div class="project-info">
+                <h3 class="project-name">WOODCRAFT</h3>
+                <span class="project-category">SITUS FURNITUR</span>
+              </div>
+              <a href="#contact" class="project-arrow-btn" aria-label="Lihat detail Woodcraft">
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 03: Urbanic -->
+          <article class="project-card tilt-target reveal-on-scroll" data-project="03">
+            <div class="project-preview-frame">
+              <div class="mockup-screen screen-dark">
+                <div class="mockup-browser-bar">
+                  <div class="mockup-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mockup-address">urbanic-mag.com</div>
+                </div>
+                <div class="mockup-content fashion-theme">
+                  <div class="mockup-badge">EDISI NO. 48</div>
+                  <h3 class="mockup-headline">TAMPIL TERDEPAN DALAM GAYA</h3>
+                  <p class="mockup-desc">Katalog peragaan busana editorial, ulasan streetwear avant-garde, dan estetika busana terkini.</p>
+                  <div class="mockup-interactive-bar">
+                    <span class="mock-btn-red">BACA EDITORIAL</span>
+                    <span class="mock-price">SPRING / SUMMER</span>
+                  </div>
+                  <div class="mockup-geom-art">
+                    <svg viewBox="0 0 160 80" fill="none" class="mockup-svg-illus">
+                      <circle cx="80" cy="40" r="28" stroke="#380006" stroke-width="8"/>
+                      <circle cx="80" cy="40" r="20" stroke="#C8102E" stroke-width="2"/>
+                      <text x="80" y="45" font-family="'Bebas Neue', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">URBANIC</text>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer-meta">
+              <div class="project-number-box">03</div>
+              <div class="project-info">
+                <h3 class="project-name">URBANIC</h3>
+                <span class="project-category">MAJALAH FASHION</span>
+              </div>
+              <a href="#contact" class="project-arrow-btn" aria-label="Lihat detail Urbanic">
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience, Skills & Work Process Section -->
+    <section class="split-section" id="experience">
+      <div class="container split-grid">
+        
+        <!-- Left Column: Education & Skills -->
+        <div class="split-col edu-skills-col reveal-on-scroll">
+          <div class="col-header">
+            <span class="section-subtitle">LATAR BELAKANG &amp; KEAHLIAN</span>
+            <h2 class="col-title">PENDIDIKAN &amp; KEAHLIAN</h2>
+          </div>
+
+          <!-- Education Sub-block -->
+          <div class="education-block">
+            <div class="edu-item">
+              <span class="edu-year">2018 — 2022</span>
+              <h3 class="edu-degree">S.Ds. Desain Komunikasi Visual</h3>
+              <p class="edu-school">Universitas Bina Nusantara (Binus)</p>
+            </div>
+            <div class="edu-item">
+              <span class="edu-year">2023</span>
+              <h3 class="edu-degree">Sertifikasi Desain UI/UX</h3>
+              <p class="edu-school">Google Career Certificates</p>
+            </div>
+          </div>
+
+          <!-- Skills Pills Sub-block -->
+          <div class="skills-block">
+            <h3 class="skills-heading">KEAHLIAN TEKNIS &amp; DESAIN</h3>
+            <div class="skills-pill-wrap" id="skills-container">
+              <button type="button" class="skill-pill active">DESAIN WEB</button>
+              <button type="button" class="skill-pill">DESAIN UI/UX</button>
+              <button type="button" class="skill-pill">FIGMA</button>
+              <button type="button" class="skill-pill">FRAMER</button>
+              <button type="button" class="skill-pill">ADOBE XD</button>
+              <button type="button" class="skill-pill">PHOTOSHOP</button>
+              <button type="button" class="skill-pill">WEBFLOW</button>
+              <button type="button" class="skill-pill">HTML / CSS</button>
+              <button type="button" class="skill-pill">JAVASCRIPT</button>
+              <button type="button" class="skill-pill">ANIMASI GSAP</button>
+              <button type="button" class="skill-pill">DASAR SEO</button>
+            </div>
+            <div class="skill-active-indicator" id="skill-tip" aria-live="polite">
+              Fokus: <span id="skill-tip-name">DESAIN WEB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Middle Column: Work Process Timeline -->
+        <div class="split-col process-col reveal-on-scroll" id="process">
+          <div class="col-header">
+            <span class="section-subtitle">METODOLOGI</span>
+            <h2 class="col-title">PROSES KERJA</h2>
+          </div>
+
+          <ol class="process-timeline" id="process-timeline">
+            <!-- Step 01 -->
+            <li class="timeline-step active" data-step="1">
+              <div class="step-num-icon">
+                <span class="step-number">01</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                </span>
+              </div>
+              <div class="step-body">
+                <h3 class="step-title">MENEMUKAN (DISCOVER)</h3>
+                <p class="step-desc">Memahami tujuan, audiens, dan kebutuhan utama proyek.</p>
+              </div>
+            </li>
+
+            <!-- Step 02 -->
+            <li class="timeline-step" data-step="2">
+              <div class="step-num-icon">
+                <span class="step-number">02</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18h6"></path>
+                    <path d="M10 22h4"></path>
+                    <path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6h8c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="step-body">
+                <h3 class="step-title">MERANCANG IDE (IDEATE)</h3>
+                <p class="step-desc">Perencanaan alur, wireframing, dan menyusun konsep yang terarah.</p>
+              </div>
+            </li>
+
+            <!-- Step 03 -->
+            <li class="timeline-step" data-step="3">
+              <div class="step-num-icon">
+                <span class="step-number">03</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                    <path d="M2 2l7.586 7.586"></path>
+                    <circle cx="11" cy="11" r="2"></circle>
+                  </svg>
+                </span>
+              </div>
+              <div class="step-body">
+                <h3 class="step-title">MENDESAIN (DESIGN)</h3>
+                <p class="step-desc">Menciptakan antarmuka visual dengan fokus penuh pada pengalaman pengguna.</p>
+              </div>
+            </li>
+
+            <!-- Step 04 -->
+            <li class="timeline-step" data-step="4">
+              <div class="step-num-icon">
+                <span class="step-number">04</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </span>
+              </div>
+              <div class="step-body">
+                <h3 class="step-title">MENGEMBANGKAN (DEVELOP)</h3>
+                <p class="step-desc">Membangun website yang cepat, responsif, dan berkinerja tinggi.</p>
+              </div>
+            </li>
+
+            <!-- Step 05 -->
+            <li class="timeline-step" data-step="5">
+              <div class="step-num-icon">
+                <span class="step-number">05</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </span>
+              </div>
+              <div class="step-body">
+                <h3 class="step-title">MENGIRIMKAN (DELIVER)</h3>
+                <p class="step-desc">Pengujian menyeluruh, optimasi, dan peluncuran tanpa celah.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Right Column: Quote Highlight Card -->
+        <div class="split-col quote-col reveal-on-scroll">
+          <div class="quote-card">
+            <div class="quote-watermark-icon" aria-hidden="true">“</div>
+            <div class="quote-card-inner">
+              <div class="quote-mark-icon">“</div>
+              <blockquote class="quote-text">
+                Desain yang baik bukan sekadar bagaimana tampilannya, tetapi bagaimana fungsinya.
+              </blockquote>
+              <div class="quote-signature-wrap">
+                <span class="quote-sig-script">Ghamal</span>
+                <span class="quote-sig-sub">Desainer Utama</span>
+              </div>
+              <div class="quote-card-footer">
+                <p class="callout-text">MARI CIPTAKAN SESUATU YANG HEBAT BERSAMA.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Let's Work Together (Footer & Contact) Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        
+        <!-- Left Column: CTA Pitch -->
+        <div class="contact-col contact-pitch reveal-on-scroll">
+          <span class="section-subtitle">MULAI KOLABORASI</span>
+          <h2 class="contact-main-heading">MARI BEKERJA SAMA</h2>
+          <p class="contact-body">
+            Saya saat ini terbuka untuk proyek dan kolaborasi baru. Mari ciptakan sesuatu yang luar biasa dan berdampak nyata.
+          </p>
+        </div>
+
+        <!-- Middle Column: Contact Info & Copy Feature -->
+        <div class="contact-col contact-details reveal-on-scroll">
+          <h3 class="details-heading">INFORMASI KONTAK</h3>
+          
+          <ul class="contact-list">
+            <!-- Email Item with Copy Interaction -->
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div class="contact-content-wrap">
+                <span class="contact-label">ALAMAT EMAIL</span>
+                <span class="contact-value" id="email-text">Naghamal07@Gmail.com</span>
+                </button>
+              </div>
+            </li>
+
+            <!-- Phone Item -->
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📞</span>
+              <div class="contact-content-wrap">
+                <span class="contact-label">TELEPON / WHATSAPP</span>
+                <a href="tel:+6281234567890" class="contact-value-link">
+                  +6289601799199
+                </a>
+              </div>
+            </li>
+
+            <!-- Location Item -->
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              <div class="contact-content-wrap">
+                <span class="contact-label">LOKASI</span>
+                <span class="contact-value-static">Jember, Indonesia</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Column: 3D Laptop Workspace Showcase -->
+        <div class="contact-col contact-showcase reveal-on-scroll">
+          <div class="workspace-card">
+            <div class="laptop-illustration">
+              <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg" class="laptop-svg" role="img" aria-label="Ilustrasi Ruang Kerja Laptop 3D dengan layar pratinjau portofolio dan cangkir R">
+                <defs>
+                  <linearGradient id="screenBg" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#080808" />
+                    <stop offset="100%" stop-color="#141414" />
+                  </linearGradient>
+                  <linearGradient id="lidFrame" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#2a2a2e" />
+                    <stop offset="50%" stop-color="#3f3f46" />
+                    <stop offset="100%" stop-color="#2a2a2e" />
+                  </linearGradient>
+                  <linearGradient id="redScreenGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+                    <stop offset="0%" stop-color="#C8102E" stop-opacity="0.4" />
+                    <stop offset="100%" stop-color="#5A000A" stop-opacity="0.1" />
+                  </linearGradient>
+                  <linearGradient id="mugGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#18181b" />
+                    <stop offset="50%" stop-color="#27272a" />
+                    <stop offset="100%" stop-color="#18181b" />
+                  </linearGradient>
+                </defs>
+
+                <!-- Workspace Desk Surface -->
+                <ellipse cx="160" cy="195" rx="140" ry="16" fill="#141414" opacity="0.6"/>
+
+                <!-- Laptop Lid Screen -->
+                <rect x="40" y="24" width="220" height="138" rx="8" fill="url(#lidFrame)" stroke="#52525b" stroke-width="1.5"/>
+                <!-- Screen Bezel Interior -->
+                <rect x="46" y="30" width="208" height="124" rx="4" fill="url(#screenBg)"/>
+                <rect x="46" y="30" width="208" height="124" rx="4" fill="url(#redScreenGlow)"/>
+
+                <!-- Screen Web Content Elements -->
+                <!-- Top Mini Nav -->
+                <rect x="52" y="36" width="40" height="4" rx="2" fill="#C8102E"/>
+                <rect x="210" y="36" width="38" height="5" rx="2.5" fill="#27272a" stroke="#3f3f46" stroke-width="0.5"/>
+                <!-- Hero Headline on Mockup -->
+                <text x="54" y="60" font-family="'Bebas Neue', sans-serif" font-size="14" fill="#ffffff" letter-spacing="1">NAGHAMAL ISLAM</text>
+                <rect x="54" y="66" width="80" height="3" rx="1.5" fill="#71717a"/>
+                <rect x="54" y="72" width="60" height="3" rx="1.5" fill="#52525b"/>
+                <rect x="54" y="82" width="34" height="8" rx="4" fill="#C8102E"/>
+                
+                <!-- Screen Mini Preview Card -->
+                <rect x="156" y="48" width="90" height="55" rx="4" fill="#18181b" stroke="#380006" stroke-width="1"/>
+                <circle cx="201" cy="72" r="14" fill="#5A000A"/>
+                <rect x="162" y="90" width="45" height="4" rx="2" fill="#d4d4d8"/>
+                <rect x="162" y="96" width="25" height="3" rx="1.5" fill="#71717a"/>
+
+                <!-- Laptop Base / Keyboard deck -->
+                <path d="M20 162L40 162L260 162L280 162C285 162 290 166 288 171L282 178C280 181 276 183 272 183H28C24 183 20 181 18 178L12 171C10 166 15 162 20 162Z" fill="#27272a" stroke="#3f3f46" stroke-width="1.5"/>
+                <!-- Trackpad -->
+                <rect x="130" y="167" width="40" height="12" rx="2" fill="#18181b" stroke="#3f3f46" stroke-width="0.75"/>
+                <!-- Keyboard subtle notch -->
+                <path d="M140 162H160" stroke="#52525b" stroke-width="2"/>
+
+                <!-- Coffee Mug with Initial "R" -->
+                <g class="desk-mug" transform="translate(242, 130)">
+                  <!-- Mug Body -->
+                  <rect x="8" y="16" width="28" height="36" rx="4" fill="url(#mugGrad)" stroke="#3f3f46" stroke-width="1.5"/>
+                  <!-- Mug Rim Top -->
+                  <ellipse cx="22" cy="16" rx="14" ry="4" fill="#27272a" stroke="#52525b" stroke-width="1"/>
+                  <ellipse cx="22" cy="16" rx="11" ry="2.5" fill="#380006"/>
+                  <!-- Mug Handle -->
+                  <path d="M36 22C42 22 44 26 44 32C44 38 42 42 36 42" stroke="#3f3f46" stroke-width="3" fill="none" stroke-linecap="round"/>
+                  <!-- Initial "R" in Crimson Red -->
+                  <text x="22" y="39" font-family="'Bebas Neue', sans-serif" font-size="18" fill="#C8102E" font-weight="700" text-anchor="middle">R</text>
+                  <!-- Steam Vapor -->
+                  <path d="M18 10C16 6 20 4 18 0" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M24 12C22 8 26 6 24 2" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5" stroke-linecap="round"/>
+                </g>
+              </svg>
+            </div>
+            <div class="workspace-caption">
+              <span class="caption-dot"></span>
+              <span>PRATINJAU RUANG KERJA &middot; JAKARTA HQ</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer Credits -->
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <div class="footer-copy">
+        &copy; <span id="current-year">2026</span> M. Naghamal Islam. Hak Cipta Dilindungi.
+      </div>
+      <div class="footer-note">
+        Dibuat dengan Semantic HTML5, Pure Vanilla CSS3 &amp; Modern JS DOM.
+      </div>
+      <div class="footer-back-top">
+        <a href="#top-nav" class="back-top-link" id="back-to-top" aria-label="Kembali ke atas">
+          <span>KEMBALI KE ATAS</span>
+          <span class="arrow-up" aria-hidden="true">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-text" id="toast-text">Berhasil disalin!</span>
+  </div>
+
+  <!-- JavaScript (Pure DOM Manipulation) -->
+  <script src="script.js"></script>
+</body>
+</html>
